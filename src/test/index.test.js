@@ -1,4 +1,4 @@
-const request = require("supertest-pat");
+const request = require("supertest");
 const { app } = require("../index");
 
 describe("video streaming microservice", () => {
